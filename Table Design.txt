@@ -1,0 +1,30 @@
+Table
+
+user
+id	bigint	20
+email	varchar	255
+username	varchar	255
+password	varchar	255
+firstname	varchar	100
+lastname	varchar	100
+created_at	timestamp	
+updated_at	timestamp	
+deleted_at	timestamp	
+
+
+product
+id bigint 20
+name varchar 225
+price bigint 20
+image varchar 225
+created_at	timestamp	
+updated_at	timestamp	
+deleted_at	timestamp
+
+transaction
+id bigint 20
+product_id bigint 20
+user_id bigint 20
+created_at	timestamp	
+updated_at	timestamp	
+deleted_at	timestamp
