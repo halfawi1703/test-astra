@@ -39,9 +39,9 @@ Migrate database:
 
 ## Documentation
 
-[Design Table](https://linktodocumentation)
+[Design Table](https://drive.google.com/file/d/1YmEofq-zuEcpIE2HlH3FNmeHArrAB62r/view?usp=share_link)
 
-[Documentation API](https://linktodocumentation)
+[Documentation API](https://drive.google.com/file/d/16SsCvNqDwLEISx84kyL84RxKKHOgxbi0/view?usp=share_link)
 
 [Postman Collection](https://documenter.getpostman.com/view/8300719/2s93JnTRpm)
 

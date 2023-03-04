@@ -27,8 +27,10 @@ Route::middleware(['auth:sanctum'])->group(function(){
     
     // Transaction
     Route::get('/order', [TransactionController::class, 'index']);
+    Route::get('/order/{id}', [TransactionController::class, 'detail']);
     Route::post('/order', [TransactionController::class, 'store']);
     Route::delete('/order/{id}', [TransactionController::class, 'destroy']);
+    Route::get('/order/report/export', [TransactionController::class, 'export']);
     // Route::get('order/export', [TransactionController::class, 'export']);
 });
 
@@ -45,4 +47,3 @@ Route::post('/products', [ProductController::class, 'store']);
 Route::patch('/products/{id}', [ProductController::class, 'update']);
 Route::delete('/products/{id}', [ProductController::class, 'destroy']);
 
-Route::get('order/export', [TransactionController::class, 'export']);
