@@ -36,12 +36,14 @@ Migrate database:
 
 ![App Screenshot](https://www.linkpicture.com/q/grabilla.p26876.png)
 
+## Postman Collection
+
+[Postman Collection](https://documenter.getpostman.com/view/8300719/2s93JnTRpm)
+
+Note: Adjust ```baseUrl``` variable with application folder
 
 ## Documentation
 
 [Design Table](https://drive.google.com/file/d/1YmEofq-zuEcpIE2HlH3FNmeHArrAB62r/view?usp=share_link)
 
 [Documentation API](https://drive.google.com/file/d/16SsCvNqDwLEISx84kyL84RxKKHOgxbi0/view?usp=share_link)
-
-[Postman Collection](https://documenter.getpostman.com/view/8300719/2s93JnTRpm)
-
